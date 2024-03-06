@@ -213,7 +213,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #022434;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -239,7 +239,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg2.jpg") top center;
+  background: url(/img/capa.jfif) top center;
   background-size: cover;
 }
 
