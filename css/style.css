@@ -243,6 +243,7 @@ h6 {
   background-size: cover;
 }
 
+
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
@@ -391,7 +392,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #6691ce;
+  color: #6285b7;
   float: left;
   line-height: 0;
 }
@@ -401,7 +402,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #6691ce;
+  color: #6285b7;
   margin-left: 60px;
 }
 
@@ -410,7 +411,7 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #6691ce;
+  color: #6285b7;
 }
 
 .facts .count-box a {
@@ -532,7 +533,7 @@ section {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.portfolio #portfolio-filters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -542,7 +543,7 @@ section {
   padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+.portfolio #portfolio-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -555,12 +556,12 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-filters li:hover,
+.portfolio #portfolio-filters li.filter-active {
   color: #149ddd;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.portfolio #portfolio-filters li:last-child {
   margin-right: 0;
 }
 
