@@ -429,7 +429,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -522,7 +522,7 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
+  background: #ffffff;
   border: 2px solid #6691ce;
 }
 
@@ -551,14 +551,14 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
+  color: #7a99c4;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-filters li:hover,
 .portfolio #portfolio-filters li.filter-active {
-  color: #149ddd;
+  color: #093169;
 }
 
 .portfolio #portfolio-filters li:last-child {
@@ -601,17 +601,17 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: rgba(19, 50, 107, 0.75);
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: rgba(170, 200, 255, 0.95);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid #37b3ed;
+  border-left: 1px solid #96abd3;
 }
 
 .portfolio .portfolio-wrap:hover::before {
