@@ -30,6 +30,7 @@
 <body>
     <!--Criar Botão Menu Mobile-->
     <i class="bi bi-list mobile-nav-toggle d-xl-none"> </i> <!-- <i> ícone-->
+
     <header id="header">
         <div class="d-flex flex-column">
             <div class="profile"> <!-- div - Caixa-->
@@ -45,14 +46,27 @@
                 </div> <!-- FIM social-links -->
             </div> <!-- FIM div Profile -->
 
+            <!-- Menu Lateral em Lista-->
+
             <nav id="navbar" class="nav-menu navbar">
                 <ul>
-                    <li><a href="#hero" class="nav-link scrollto active"><i class='bx bx-home-heart'></i>
-                            <span>Home</span></a></li>
-                    <li><a href="#about" class="nav-link scrollto"><i class="bi bi-person-lines-fill"></i> <span>Quem somos</span></a></li>
-                    <li><a href="#facts" class="nav-link scrollto"><i class="bi bi-lightbulb"></i> <span>Curiosidades</span></a></li>
-                    <li><a href="#skills" class="nav-link scrollto"><i class='bx bx-glasses-alt'></i> <span>Modelos</span></a></li>
-                    <li><a href="#resume" class="nav-link scrollto"><i class="bi bi-buildings"></i>
+                    <li>
+                        <a href="#hero" class="nav-link scrollto activec"><i class='bx bx-home-alt-2'></i>
+                            <span>Início</span></a></li>
+                    <li>
+                        <a href="#about" class="nav-link scrollto"><i class="bi bi-person-lines-fill"></i> <span>Sobre</span></a></li>
+                    <li>
+                        <a href="#facts" class="nav-link scrollto"><i class='bx bx-note'></i> <span>Resumo</span></a></li>
+                    <li>
+                        <a href="#skills" class="nav-link scrollto"><i class='bx bx-bar-chart'></i><span>Tragetória</span></a></li>
+                    <li>
+                        <a href="#portfolio" class="nav-link scrollto"><i class='bx bx-glasses-alt'></i>
+                            <span>Produtos</span></a></li>
+                    <li>
+                        <a href="#services" class="nav-link scrollto"><i class="bi bi-buildings"></i>
+                            <span>Nossa empresa</span></a></li>
+                    <li>
+                        <a href="#contact" class="nav-link scrollto"><i class="bi bi-buildings"></i>
                             <span>Nossa empresa</span></a></li>
                     
 
@@ -110,7 +124,7 @@
 
                 <div class="section-title">
                     <h2>Curiosidades</h2>
-                    <h4> <em><b>Nosso objetivo </b>  </em></h4>
+                    <h4> <b>Nosso objetivo </b> </h4>
                     <p>Nós da Óticas Brasil nos preocupamos em ser transparentes com nossos clientes, nos empenhando para entregar o melhor do mercado. </p> </div>
 
                  <div class="row no-gutters">             
@@ -181,7 +195,7 @@
         <div class="container">
 
             <div class="section-title">
-                <h2> Modelos mais procurados </h2>
+                <h4> <b> Modelos mais procurados </b></h4>
             </div>
 
             <article class="row skills-content">
@@ -329,64 +343,228 @@
     </section> <!-- FIM Resumo --> 
 
 
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="section-title">
-                <h2>Produtos</h2>
-                    <p>Conheça nossas peças</p>
-        <div class="row" data-aos="fade-up">
-            <div class="col-lg-12 d-flex justify-content-center">
-                <ul id="portfolio-filters">
-                    <li data-filter="*" class="filter-active"> todos </li>
-                    <li data-filter=" .filter-cll">  </li>
-                    <li data-filter=" .filter-ocl"> oculos </li>
-                    <li data-filter=" .filter-pcc"> armação </li>
+    <section id="portfolio" class="portfolio section-bg">
+        <div class="container">  
 
-                </ul>
+            <div class="section-title">
+                <h2> Portfolio </h2>
+                <p> Nossos Produtos </p>
             </div>
 
-            <div class="row portfolio-container" data-aos="fade up" data-aos-delay="100">
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-filters">
+        <li data-filter="*" class="filter-active"> Todos </li>
+        <li data-filter=".filter-cla"> Clássicos  </li>
+
+        <li data-filter=".filter-mod"> Modernos </li>
+                        
+        <li data-filter=".filter-bay"> Bayonetta </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
                 <!-- FOTO 1 -->
-                <div class="col-lg-4 col-md-6 portfolio-item filter-cll">
-                    <div class="portfolio-wrap">
-                        <img src="img/portfolio/portfolio-1.jpg" class="img-fluid">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-cla">
+                <div class="portfolio-wrap">
+                    <img src="img/portfolio1.webp" class="img-fluid">
 
-                        <div class="porfolio-links">
-                            <img src="img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox">
-                            <i class="bx bx-plus"> </i>
-                        </div>
-                    </div>
-                </div><!-- FOTO 1 -->
-                <div class="col-lg-4 col-md-6 portfolio-item filter-cll">
-                    <div class="portfolio-wrap">
-                        <img src="img/portfolio/portfolio-1.jpg" class="img-fluid">
+                    <div class="portfolio-links">
 
-                        <div class="porfolio-links">
-                            <img src="img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox">
+                        <a href="img/portfolio1.webp" data-gallery="portfolioGsllery" class="portfolio-lightbox">
                             <i class="bx bx-plus"> </i>
-                        </div>
-                    </div>
-                </div><!-- FOTO 1 -->
-                <div class="col-lg-4 col-md-6 portfolio-item filter-cll">
-                    <div class="portfolio-wrap">
-                        <img src="img/portfolio/portfolio-1.jpg" class="img-fluid">
+                        </a> 
 
-                        <div class="porfolio-links">
-                            <img src="img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                            class="portfolio-lightbox">
-                            <i class="bx bx-plus"> </i>
-                        </div>
+                        <a href="detalhes.html" target="_blank">
+                            <i class="bx bx-link"></i>
+                        </a>
+
+                      
                     </div>
                 </div>
-                
-            </div>
-        </div>
-            </div>
-        </div>
+            </div> <!-- FOTO 1 -->
+
+                <!-- FOTO 2 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bay">
+                <div class="portfolio-wrap">
+                    <img src="img/portfolio2.avif" class="img-fluid">
+
+                    <div class="portfolio-links">
+
+                        <a href="img/portfolio2.avif" data-gallery="portfolioGsllery" class="portfolio-lightbox">
+                            <i class="bx bx-plus"> </i>
+                        </a> 
+
+                        <a href="detalhes.html" target="_blank">
+                            <i class="bx bx-link"></i>
+                        </a>
+
+                      
+                    </div>
+                </div>
+            </div> <!-- FOTO 2 -->
+
+            <!-- FOTO 3 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-mod">
+                <div class="portfolio-wrap">
+                    <img src="img/portfolio3.jpg" class="img-fluid">
+
+                    <div class="portfolio-links">
+
+                        <a href="img/portfolio3.jpg" data-gallery="portfolioGsllery" class="portfolio-lightbox">
+                            <i class="bx bx-plus"> </i>
+                        </a> 
+
+                        <a href="detalhes.html" target="_blank">
+                            <i class="bx bx-link"></i>
+                        </a>
+
+                      
+                    </div>
+                </div>
+            </div> <!-- FOTO 3 -->
+
+            <!-- FOTO 4 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bay">
+                <div class="portfolio-wrap">
+                    <img src="img/portfolio4.webp" class="img-fluid">
+
+                    <div class="portfolio-links">
+
+                        <a href="img/portfolio4.webp" data-gallery="portfolioGsllery" class="portfolio-lightbox">
+                            <i class="bx bx-plus"> </i>
+                        </a> 
+
+                        <a href="detalhes.html" target="_blank">
+                            <i class="bx bx-link"></i>
+                        </a>
+
+                      
+                    </div>
+                </div>
+            </div> <!-- FOTO 4 -->
+
+            <!-- FOTO 5 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-mod">
+                <div class="portfolio-wrap">
+                    <img src="img/portfolio5.webp" class="img-fluid">
+
+                    <div class="portfolio-links">
+
+                        <a href="img/portfolio5.webp" data-gallery="portfolioGsllery" class="portfolio-lightbox">
+                            <i class="bx bx-plus"> </i>
+                        </a> 
+
+                        <a href="detalhes.html" target="_blank">
+                            <i class="bx bx-link"></i>
+                        </a>
+
+                      
+                    </div>
+                </div>
+            </div> <!-- FOTO 5 -->
+
+            <!-- FOTO 6 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-cla">
+                <div class="portfolio-wrap">
+                    <img src="img/portfolio6.png" class="img-fluid">
+
+                    <div class="portfolio-links">
+
+                        <a href="img/portfolio6.png" data-gallery="portfolioGsllery" class="portfolio-lightbox">
+                            <i class="bx bx-plus"> </i>
+                        </a> 
+
+                        <a href="detalhes.html" target="_blank">
+                            <i class="bx bx-link"></i>
+                        </a>
+
+                      
+                    </div>
+                </div>
+            </div> <!-- FOTO 6 -->
+
+            <!-- FOTO 7 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-mod">
+                <div class="portfolio-wrap">
+                    <img src="img/portfolio7.webp" class="img-fluid">
+
+                    <div class="portfolio-links">
+
+                        <a href="img/portfolio7.webp" data-gallery="portfolioGsllery" class="portfolio-lightbox">
+                            <i class="bx bx-plus"> </i>
+                        </a> 
+
+                        <a href="detalhes.html" target="_blank">
+                            <i class="bx bx-link"></i>
+                        </a>
+
+                      
+                    </div>
+                </div>
+            </div> <!-- FOTO 7 -->
+
+            <!-- FOTO 8 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-cla">
+                <div class="portfolio-wrap">
+                    <img src="img/portfolio8.png" class="img-fluid">
+
+                    <div class="portfolio-links">
+
+                        <a href="img/portfolio8.png" data-gallery="portfolioGsllery" class="portfolio-lightbox">
+                            <i class="bx bx-plus"> </i>
+                        </a> 
+
+                        <a href="detalhes.html" target="_blank">
+                            <i class="bx bx-link"></i>
+                        </a>
+
+                      
+                    </div>
+                </div>
+            </div> <!-- FOTO 8 -->
+
+            <!-- FOTO 9 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-bay">
+                <div class="portfolio-wrap">
+                    <img src="img/portfolio/portfolio-1.jpg" class="img-fluid">
+
+                    <div class="portfolio-links">
+
+                        <a href="img/portfolio/portfolio-1.jpg" data-gallery="portfolioGsllery" class="portfolio-lightbox">
+                            <i class="bx bx-plus"> </i>
+                        </a> 
+
+                        <a href="detalhes.html" target="_blank">
+                            <i class="bx bx-link"></i>
+                        </a>
+
+                      
+                    </div>
+                </div>
+            </div> <!-- FOTO 9 -->
+            
+            </div> <!-- portfolio Container-->
+
+        </div> <!-- Container -->            
+
     </section>
+
+    <section id="pro">
+
+    </section>
+
+
+    </main>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"> 
+        <i class="bi bi-arrow-up-short"> </i>
+    </a>
+                  
+          
 
 
 
