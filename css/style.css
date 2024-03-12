@@ -709,7 +709,7 @@ section {
   background: #149ddd;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid #042f42;
 }
 
 .services .icon i {
@@ -771,7 +771,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #093a7a;
 }
 
 .testimonials .testimonial-item h4 {
@@ -830,13 +830,13 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #fefeff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #05305e;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #09315a;
 }
 
 /*--------------------------------------------------------------
@@ -855,7 +855,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #0a2f5a;
   float: left;
   width: 44px;
   height: 44px;
@@ -906,14 +906,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #04325e;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #031d3a;
   color: #fff;
 }
 
@@ -1001,7 +1001,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #149ddd;
+  background: #0e3877;
   border: 0;
   padding: 10px 24px;
   color: #fff;
